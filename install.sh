@@ -10,3 +10,8 @@ deactivate
 read -p "Capsolver key?" key
 
 echo "CAPSOLVER_KEY="$key > ~/scripts/bera-faucet/config/env
+
+if [ ! -f ~/scripts/bera-faucet/config/wallets ]
+then
+ cp ~/scripts/bera-faucet/config/wallets.sample ~/scripts/bera-faucet/config/wallets
+fi
