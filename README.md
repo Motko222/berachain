@@ -3,7 +3,7 @@
 ## Clone
 use "ex" to add repo "bera-faucet"
 - or -
-cd ~/scripts; git clone https://github.com/Motko222/bera-faucet; chmod +x ~/scripts/opside/*.sh;
+cd ~/scripts; git clone https://github.com/Motko222/bera-faucet; chmod +x ~/scripts/bera-faucet/*.sh;
 
 ## Get capsolver
 sign in with capsolver and purchase credit
