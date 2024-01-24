@@ -1,7 +1,7 @@
 #!/bin/bash
 
-source ~/bera-faucet/config/env
-cd ~/bera-faucet
+source ~/scripts/bera-faucet/config/env
+cd ~/scripts/bera-faucet
 source venv/bin/activate
 
  date +'%y-%m-%d %H:%M'
