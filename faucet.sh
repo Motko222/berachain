@@ -13,7 +13,7 @@ source venv/bin/activate
   proxy=$(echo $line | awk '{print $2}')
   python faucet.py $proxy $wallet $CAPSOLVER_KEY
   delay=$(( $RANDOM % 55 + 5 ))s
- done < "/root/bera-faucet/config/wallets"
+ done < "/root/scripts/bera-faucet/config/wallets"
 
  deactivate
  echo "---"
